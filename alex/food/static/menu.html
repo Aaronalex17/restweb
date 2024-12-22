@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Renolt Restaurant</title>
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        /* Body and Background */
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            font-size: 16px;
+            padding: 0;
+            margin: 0;
+            background: #f5f5f5 url('watermark.png') no-repeat center center fixed; /* Add watermark image */
+            background-size: 50%; /* Adjust size of watermark */
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(45deg, #9b1c1c, #d4af37); /* Gold and Red gradient */
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 4em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #9b1c1c; /* Red */
+            padding: 12px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            font-size: 1.2em;
+            margin: 0 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d4af37; /* Gold */
+            text-decoration: underline;
+        }
+
+        /* Menu Section */
+        #menu {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        #menu h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #9b1c1c; /* Red */
+        }
+
+        .dish-grid {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .dish-card {
+            background-color: white;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .dish-card:hover {
+            transform: scale(1.05);
+        }
+
+        .dish-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .dish-card h3 {
+            font-size: 1.7em;
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+
+        .dish-card p {
+            color: #7f8c8d;
+            padding: 10px;
+            font-size: 1.1em;
+        }
+
+        .dish-card .price {
+            font-size: 1.3em;
+            color: #f39c12;
+            margin-top: 10px;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-top: 1px solid #ccc;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #9b1c1c; /* Red */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1em;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            nav a {
+                font-size: 1em;
+                margin: 0 15px;
+            }
+
+            .dish-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .dish-card {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            #menu h2 {
+                font-size: 2em;
+            }
+
+            #menu p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Renolt Restaurant</h1>
+    <p>Exceptional Dining Experience</p>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a herf="admin.html"> administration</a>
+    
+    
+</nav>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="dish-grid">
+        <!-- Dish 1 -->
+        <div class="dish-card">
+            <img src="a1.jpg" alt="Grilled Chicken">
+            <h3>Grilled Chicken</h3>
+            <p>Perfectly seasoned chicken with mashed potatoes and vegetables.</p>
+            <div class="price">$12.99</div>
+        </div>
+
+        <!-- Dish 2 -->
+        <div class="dish-card">
+            <img src="a3.jpg" alt="Pasta Primavera">
+            <h3>Pasta Primavera</h3>
+            <p>Fresh pasta with seasonal veggies in olive oil and parmesan.</p>
+            <div class="price">$10.99</div>
+        </div>
+
+        <!-- Dish 3 -->
+        <div class="dish-card">
+            <img src="a2.jpg" alt="Margherita Pizza">
+            <h3>Margherita Pizza</h3>
+            <p>Classic pizza topped with fresh mozzarella, tomatoes, and basil pesto.</p>
+            <div class="price">$9.99</div>
+        </div>
+
+        <!-- Dish 4 -->
+        <div class="dish-card">
+            <img src="a4.jpg" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Juicy salmon fillet served with grilled vegetables and a lemon butter sauce.</p>
+            <div class="price">$15.99</div>
+        </div>
+
+        <!-- Dish 5 -->
+        <div class="dish-card">
+            <img src="a5.jpg" alt="Caesar Salad">
+            <h3>Caesar Salad</h3>
+            <p>Classic Caesar salad with crunchy croutons and parmesan cheese.</p>
+            <div class="price">$8.99</div>
+        </div>
+
+        <!-- Dish 6 -->
+        <div class="dish-card">
+            <img src="a6.jpg" alt="Steak Frites">
+            <h3>Steak Frites</h3>
+            <p>Tender steak served with crispy fries and béarnaise sauce.</p>
+            <div class="price">$18.99</div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Renolt Restaurant | All Rights Reserved</p>
+    <p>1234 Food Street, City, Country</p>
+</footer>
+
+</body>
+</html>
