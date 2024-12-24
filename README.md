@@ -1,7 +1,7 @@
 # Ex.07 Restaurant Website
-## Date:22/12/2024
+## Date:24/12/2024
 
-## AIM:
+## AIM:                
 To develop a static Restaurant website to display the food items and services provided by them.
 
 ## DESIGN STEPS:
@@ -19,7 +19,6 @@ Updating the sample content.
 Choose the appropriate style and color scheme.
 
 ### Step 5:
-Validate the layout in various browsers.
 
 ### Step 6:
 Validate the HTML code.
@@ -29,6 +28,7 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 ```
+
 home.html
 <!DOCTYPE html>
 <html lang="en">
@@ -307,11 +307,11 @@ home.html
 <footer>
     <p>&copy; 2024 Renolt Restaurant | All Rights Reserved</p>
     <p>1234 Food Street, City, Country</p>
+    <p>Design and Developed by aaron alex p</p>
 </footer>
 
 </body>
 </html>
-
 menu.html
 <!DOCTYPE html>
 <html lang="en">
@@ -561,11 +561,11 @@ menu.html
 <footer>
     <p>&copy; 2024 Renolt Restaurant | All Rights Reserved</p>
     <p>1234 Food Street, City, Country</p>
+    <p>Design and Developed by aaron alex</p>
 </footer>
 
 </body>
 </html>
-
 contact.html
 <!DOCTYPE html>
 <html lang="en">
@@ -760,177 +760,12 @@ contact.html
 <footer>
     <p>&copy; 2024 Renolt Restaurant | All Rights Reserved</p>
     <p>1234 Food Street, City, Country</p>
+    <p>Design and Developed by aaron alex</p>
 </footer>
 
 </body>
 </html>
-
-about.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Renolt Restaurant</title>
-    <style>
-        /* Global Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-        }
-
-        /* Body and Background */
-        body {
-            background-color: #f5f5f5;
-            color: #333;
-            line-height: 1.6;
-            font-size: 16px;
-            padding: 0;
-            margin: 0;
-            background: #f5f5f5 url('watermark.png') no-repeat center center fixed; /* Add watermark image */
-            background-size: 50%; /* Adjust size of watermark */
-        }
-
-        /* Header */
-        header {
-            background: linear-gradient(45deg, #9b1c1c, #d4af37); /* Gold and Red gradient */
-            color: white;
-            text-align: center;
-            padding: 80px 20px;
-            position: relative;
-        }
-
-        header h1 {
-            font-size: 4em;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        header p {
-            font-size: 1.3em;
-            margin-top: 10px;
-        }
-
-        /* Navigation Bar */
-        nav {
-            background-color: #9b1c1c; /* Red */
-            padding: 12px 20px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            font-size: 1.2em;
-            margin: 0 25px;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-        }
-
-        nav a:hover {
-            color: #d4af37; /* Gold */
-            text-decoration: underline;
-        }
-
-        /* About Section */
-        #about-us {
-            padding: 80px 20px;
-            text-align: center;
-        }
-
-        #about-us h2 {
-            font-size: 2.5em;
-            color: #9b1c1c; /* Red */
-            margin-bottom: 30px;
-        }
-
-        #about-us p {
-            font-size: 1.2em;
-            line-height: 1.8;
-            color: #555;
-            margin-bottom: 30px;
-            padding: 0 20px;
-        }
-
-        .about-img {
-            width: 100%;
-            height: 350px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin-bottom: 30px;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #9b1c1c; /* Red */
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 1em;
-            margin-top: 40px;
-        }
-
-        footer p {
-            margin: 10px 0;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2.5em;
-            }
-
-            nav a {
-                font-size: 1em;
-                margin: 0 15px;
-            }
-
-            #about-us h2 {
-                font-size: 2em;
-            }
-
-            #about-us p {
-                font-size: 1.1em;
-            }
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Renolt Restaurant</h1>
-    <p>Exceptional Dining Experience</p>
-</header>
-
-<nav>
-    <a href="home.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact</a>
-    <a href="admin.html">administration</a>
-</nav>
-
-<section id="about-us">
-    <h2>About Renolt Restaurant</h2>
-    <img src="a.jpg" alt="Restaurant Interior" class="about-img">
-    <p>Welcome to Renolt Restaurant! We are a family-owned eatery known for serving the finest dishes made with love and the freshest ingredients. Our story began over a decade ago when we opened our doors with a single goal: to create a memorable dining experience for every guest.</p>
-    <p>Our menu blends traditional recipes with modern techniques, and each dish is a reflection of our commitment to quality. Whether you're here for a casual meal or celebrating a special occasion, our team is dedicated to providing exceptional service and flavors that will leave you coming back for more.</p>
-    <p>At Renolt Restaurant, we believe in not just serving food, but creating an experience that will linger long after the meal is over.</p>
-</section>
-
-<footer>
-    <p>&copy; 2024 Renolt Restaurant | All Rights Reserved</p>
-    <p>1234 Food Street, City, Country</p>
-</footer>
-
-</body>
-</html>
-
-admin.html
+admin .html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1146,24 +981,186 @@ admin.html
 <footer>
     <p>&copy; 2024 Renolt Restaurant | All Rights Reserved</p>
     <p>1234 Food Street, City, Country</p>
+    <p>design and developed by aaron alex</p>
+</footer>
+
+</body>
+</html>
+about.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Renolt Restaurant</title>
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        /* Body and Background */
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            font-size: 16px;
+            padding: 0;
+            margin: 0;
+            background: #f5f5f5 url('watermark.png') no-repeat center center fixed; /* Add watermark image */
+            background-size: 50%; /* Adjust size of watermark */
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(45deg, #9b1c1c, #d4af37); /* Gold and Red gradient */
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 4em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #9b1c1c; /* Red */
+            padding: 12px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            font-size: 1.2em;
+            margin: 0 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d4af37; /* Gold */
+            text-decoration: underline;
+        }
+
+        /* About Section */
+        #about-us {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        #about-us h2 {
+            font-size: 2.5em;
+            color: #9b1c1c; /* Red */
+            margin-bottom: 30px;
+        }
+
+        #about-us p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 30px;
+            padding: 0 20px;
+        }
+
+        .about-img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #9b1c1c; /* Red */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1em;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            nav a {
+                font-size: 1em;
+                margin: 0 15px;
+            }
+
+            #about-us h2 {
+                font-size: 2em;
+            }
+
+            #about-us p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Renolt Restaurant</h1>
+    <p>Exceptional Dining Experience</p>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">administration</a>
+</nav>
+
+<section id="about-us">
+    <h2>About Renolt Restaurant</h2>
+    <img src="a.jpg" alt="Restaurant Interior" class="about-img">
+    <p>Welcome to Renolt Restaurant! We are a family-owned eatery known for serving the finest dishes made with love and the freshest ingredients. Our story began over a decade ago when we opened our doors with a single goal: to create a memorable dining experience for every guest.</p>
+    <p>Our menu blends traditional recipes with modern techniques, and each dish is a reflection of our commitment to quality. Whether you're here for a casual meal or celebrating a special occasion, our team is dedicated to providing exceptional service and flavors that will leave you coming back for more.</p>
+    <p>At Renolt Restaurant, we believe in not just serving food, but creating an experience that will linger long after the meal is over.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Renolt Restaurant | All Rights Reserved</p>
+    <p>1234 Food Street, City, Country</p>
+    <p>design and developed by aaron alex</p>
 </footer>
 
 </body>
 </html>
 
 
-
-
-
-
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (53).png>)
-![alt text](<Screenshot (54).png>)
-![alt text](<Screenshot (55).png>)
-![alt text](<Screenshot (56).png>)
-![alt text](<Screenshot (57).png>)
+![Screenshot (68)](https://github.com/user-attachments/assets/884512a4-325a-441f-92af-b329ba40b00f)
+![Screenshot (69)](https://github.com/user-attachments/assets/e00a38ce-e4ed-4a06-9b76-31ec49cbb069)
+![Screenshot (70)](https://github.com/user-attachments/assets/5d68c199-9f27-4dfe-9b7f-e1ad4e31da1c)
+![Screenshot (71)](https://github.com/user-attachments/assets/cb4055b5-426d-4c2d-af90-286f55542e6a)
+
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
